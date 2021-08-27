@@ -15,17 +15,32 @@ class SqlController {
         const path = req.file.path;
         const values = await fileReader(path);
 
-         // console.log(values);
-       // values.forEach(async (value) => {
+      // console.log(values);
+      // values.forEach(async (value) => {
 
-         //await Model.insertData(value);
+      //await Model.insertData(value);
 
-          //console.log(value);
+      //console.log(value);
           
-        //});
+      //});
        
+   /*   let key = []
+// const values = JSON.stringify(result)
 
+Object.keys(result).map((values, i) => {
+    key.push(values)
+    
+})
+const k = []
+ for (let i = 0; i < key.length; i++) {
+    //console.log(result[key[i]].micr)
 
+    k.push(result[key[i]].code, result[key[i]].type);
+    
+}
+console.log(k)
+
+*/
 
 
         
