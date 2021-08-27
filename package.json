@@ -1,0 +1,23 @@
+{
+  "name": "db-file-uploads",
+  "version": "1.0.0",
+  "description": "files uploading on database.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/index.js"
+  },
+  "author": "Moh Shaib Jafri",
+  "license": "ISC",
+  "dependencies": {
+    "csv-parser": "^3.0.0",
+    "fastify": "^3.12.0",
+    "fastify-multer": "^2.0.2",
+    "fastify-plugin": "^3.0.0",
+    "mongoose": "^5.11.18",
+    "mysql2": "^2.2.5",
+    "nodemon": "^2.0.7",
+    "parse-json": "^5.2.0",
+    "pino-pretty": "^4.5.0"
+  }
+}

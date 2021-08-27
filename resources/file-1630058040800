@@ -1,0 +1,46 @@
+{
+    "AACX": {
+      "code": "AACX",
+      "type": "O-UCB",
+      "ifsc": "HDFC0CAACOB",
+      "micr": "395437002",
+      "iin": "607227",
+      "apbs": true,
+      "ach_credit": true,
+      "ach_debit": true,
+      "nach_debit": false
+    },
+    "ABBL": {
+      "code": "ABBL",
+      "type": "Foreign",
+      "ifsc": "HDFC0CABBLM",
+      "micr": "400240262",
+      "iin": "990312",
+      "apbs": false,
+      "ach_credit": true,
+      "ach_debit": false,
+      "nach_debit": false
+    },
+    "ABCX": {
+      "code": "ABCX",
+      "type": "DCCB",
+      "ifsc": "YESB0AURDCC",
+      "micr": "431579002",
+      "iin": "508752",
+      "apbs": true,
+      "ach_credit": true,
+      "ach_debit": true,
+      "nach_debit": false
+    },
+    "ABDX": {
+      "code": "ABDX",
+      "type": "O-UCB",
+      "ifsc": "YESB0ANBL01",
+      "micr": "474526002",
+      "iin": null,
+      "apbs": false,
+      "ach_credit": true,
+      "ach_debit": true,
+      "nach_debit": false
+    }
+}
